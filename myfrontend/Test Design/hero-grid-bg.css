@@ -1,0 +1,51 @@
+/* Sparkle Background Animation */
+.sparkle-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0; /* Behind content but above any background images */
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+  filter: blur(1px);
+  transform: scale(0);
+}
+
+/* Sparkle colors */
+.sparkle.color-1 {
+  background-color: rgba(10, 228, 72, 0.7);
+  box-shadow: 0 0 10px 2px rgba(10, 228, 72, 0.5);
+}
+.sparkle.color-2 {
+  background-color: rgba(0, 186, 226, 0.6);
+  box-shadow: 0 0 10px 2px rgba(0, 186, 226, 0.4);
+}
+.sparkle.color-3 {
+  background-color: rgba(171, 255, 132, 0.6);
+  box-shadow: 0 0 10px 2px rgba(171, 255, 132, 0.4);
+}
+.sparkle.color-4 {
+  background-color: rgba(157, 149, 255, 0.5);
+  box-shadow: 0 0 10px 2px rgba(157, 149, 255, 0.3);
+}
+
+/* Make sure hero content has proper z-index */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.building-container {
+  position: relative;
+  z-index: 1;
+}

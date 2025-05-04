@@ -1,0 +1,45 @@
+iframe[src*="lookerstudio.google.com"] {
+  width: 100%;
+  height: auto;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+}
+iframe[src*="lookerstudio.google.com"] {
+  will-change: transform;
+}
+
+/* Reset all possible iframe-inherited styles */
+.iframe-container {
+  all: initial;
+  display: block;
+}
+
+.iframe-container iframe {
+  all: unset;
+  width: 100% !important;
+  height: 1000px !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.iframe-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.iframe-container + * {
+  clear: both;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  iframe[src*="lookerstudio.google.com"] {
+    height: 600px;
+  }
+}

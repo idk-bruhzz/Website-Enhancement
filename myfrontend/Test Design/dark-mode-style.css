@@ -1,0 +1,149 @@
+/* dark-mode.css - Separate dark mode styles for your index page */
+
+[data-theme="dark"] {
+  /* Dark mode color variables */
+  --primary-light: #011627;
+  --primary-dark: #fdfffc;
+  --primary-dark-90: rgba(253, 255, 252, 0.9);
+  --primary-dark-80: rgba(253, 255, 252, 0.8);
+  --primary-dark-60: rgba(253, 255, 252, 0.6);
+  --primary-dark-20: rgba(253, 255, 252, 0.2);
+
+  --text-primary: var(--primary-dark);
+  --text-secondary: var(--primary-dark-60);
+  --text-light: var(--primary-light);
+
+  --shadow-sm: 0 1px 3px rgba(253, 255, 252, 0.12);
+  --shadow-md: 0 4px 6px rgba(253, 255, 252, 0.1),
+    0 1px 3px rgba(253, 255, 252, 0.08);
+  --shadow-lg: 0 10px 25px rgba(253, 255, 252, 0.1),
+    0 5px 10px rgba(253, 255, 252, 0.05);
+  --shadow-xl: 0 20px 40px rgba(253, 255, 252, 0.15);
+  --shadow-inset: inset 0 2px 4px rgba(253, 255, 252, 0.05);
+}
+
+/* Dark mode specific styles */
+[data-theme="dark"] body {
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+[data-theme="dark"] .navbar {
+  background-color: var(--primary-light);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .navbar.scrolled {
+  background-color: var(--primary-light);
+}
+
+[data-theme="dark"] .features {
+  background-color: var(--primary-dark-20);
+}
+
+[data-theme="dark"] .feature-card {
+  background-color: var(--primary-light);
+  border: 1px solid var(--primary-dark-20);
+}
+
+[data-theme="dark"] .card {
+  background-color: var(--primary-light);
+  border: 1px solid var(--primary-dark-20);
+}
+
+[data-theme="dark"] .testimonial-card {
+  background-color: var(--primary-light);
+  border: 1px solid var(--primary-dark-20);
+}
+
+/* [data-theme="dark"] .hero {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #000814 100%);
+} */
+
+[data-theme="dark"] .stats {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #000814 100%);
+}
+
+[data-theme="dark"] .footer {
+  background-color: var(--primary-light);
+}
+
+[data-theme="dark"] .footer::before {
+  background: linear-gradient(90deg, var(--accent-orange), var(--accent-teal));
+}
+
+[data-theme="dark"] .footer-title {
+  color: var(--accent-teal);
+}
+
+[data-theme="dark"] .footer-title::after {
+  background-color: var(--accent-orange);
+}
+
+[data-theme="dark"] .social-link {
+  background-color: rgba(1, 22, 39, 0.5);
+}
+
+[data-theme="dark"] .social-link:hover {
+  background-color: var(--accent-teal);
+}
+
+[data-theme="dark"] .nav-link::after {
+  background: linear-gradient(90deg, var(--accent-orange), var(--accent-teal));
+}
+
+[data-theme="dark"] .section-title::after {
+  background: linear-gradient(90deg, var(--accent-teal), var(--accent-orange));
+}
+
+/* Dark mode toggle button */
+[data-theme="dark"] .dark-mode-btn .dark-mode-icon {
+  color: var(--accent-orange);
+}
+
+/* Form elements in dark mode */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background-color: var(--primary-dark-20);
+  color: var(--primary-dark);
+  border-color: var(--primary-dark-60);
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] textarea:focus,
+[data-theme="dark"] select:focus {
+  border-color: var(--accent-teal);
+  box-shadow: 0 0 0 3px rgba(46, 196, 182, 0.2);
+}
+
+/* Buttons in dark mode */
+[data-theme="dark"] .btn-primary {
+  --btn-bg: var(--accent-teal);
+  --btn-color: var(--primary-dark);
+}
+
+[data-theme="dark"] .btn-secondary {
+  --btn-bg: transparent;
+  --btn-color: var(--primary-dark);
+  --btn-border: 2px solid var(--primary-dark);
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+  --btn-bg: var(--primary-dark);
+  --btn-color: var(--primary-light);
+}
+
+[data-theme="dark"] body,
+[data-theme="dark"] .navbar,
+[data-theme="dark"] .card,
+[data-theme="dark"] .feature-card,
+[data-theme="dark"] .btn,
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}

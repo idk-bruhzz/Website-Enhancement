@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "income-survey-448401",
+  "private_key_id": "5c00b6867a9ec29ef6ca2fed6da0ec4c2f10b797",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCtd/aMnYAm9uQE\ncgUmZpdEASFxDIMmE2j++dYrLEu5O8oXA0eX0RqFeXb8rkZi+4SzODXQFxdrg+0R\n4mKwU5EewEoccsPRsyvmCgA3dbj9XG7ijW4UFwWFYBx4CdUWeZMKIEMTst+gsymB\n65XOcBgh0ev1oORdjnotiHUo0eNpYLi0MxZafm0nMPnJSn06FVyoiFBFXA3t2820\nIt4InwApu6CsmAp3mOdCz82FnpDHA4m/jg0FXcQnZogP22b1Z+uaAAUQpJ3P2g6M\n+2Lj5kXO78UTyazkwhAODnpC2g1/b84uxqIpjAN3olR91mTZvYbxTE4pUGz/jHCO\ny01lKIINAgMBAAECggEAEVTDu4NN5zayC9aneJF16fux72VIYiC81AK6mNglXaWh\nWIDBoaOo4m6DCpZP3npSJQTH7ZktBBcrc6a6ZPMIc/nSvbpioZwk1egoYuIeYCPg\nyT5Hofa13MBAP+b9lPADFpcoFHsB2ECmND6JGlW9N33NdR5EyqsePlfcmr4zmha/\nM2a8I2LUHTKoP1vDVoys0zmHjD8wXndSNdlGRaqCVgMG4wHsaEstU0GSJ0YMdUY9\nHQdIkkBAO/uesWoCP5FyLND6+S42pPWLqMbcangQdSrKnjyc5d1tC5uYCJmsMf4U\n7tmvfj08Le6D+/viLnVdwlJsixdfHeOYd3CF6TP5IQKBgQDo83slIom1KF87yr5C\nALy3CiOl0t929LzYvevRSim5EsshxEj5LT0PGodKFzcsRc5vRHbKZg6PMb7UYqr8\nRXPYewUz9HSFz/ZiG+lTs1Jb9zWZbfUbOlOtwt6hPbs4uQv7BCpvpv/N7wtdlkXJ\nKPfSpViZ8CzHBS2BMWmM8BtgoQKBgQC+odMGgxy5ou4IAU3Be2acEDYhFlWp62Zr\nhxxP7OeUMFksV5jlgy78N7ESurROw4JJPZq9q5VKHyckiiPjs1ZnqKy6XmHaHwXj\nk3I2PDNEfaCW8xFouMvtkSzy8ZpPCS1Q9IinnA9Byzk908boceRboE6mWlEUx5W0\n0ydElnvt7QKBgQCFxDLlmxSae0lca0qfWg8DyIW51gJOK7E5gK2ma8DTrrAIfs8s\njsauIpyndfdPq/IjwJu6E6qunXEoQlRPMo6YM+RD9k7m/AlOQxrT3ngfqTAVH6gM\n74xXjjwLOQiGRPRVOwonPS1NEsRjBESkg6rzQdFD7D+6NQXxVu92Z/ZAoQKBgQCF\nqHSK9lanmaMHHdLku57AAWXSYRSC5LeU4NBrAZGFBzkeq/RZx1akJHAUz68oIlAx\nBe5+2dT8eUc6iViMh+snFs60hQRaqLG6VGEZwa+4b9SuwZINOLRSxx0a4Wbtz2Nk\nhW9jBTp1SQXDYb7urxwLWiSK4nxC84T1ma7ImjIeKQKBgQDP9ClH0u8On2zC5woi\nMfq7wexfenEGTuRRm3TxdkmatWz3BScSTGAKwSTsHKKa7EhRwE0u+RiepMgpxrm2\nkNIsqM0faAgTl09kxvdfckWOa+izicm4EPmRJVWNJJzVQpNqxUO4pHr6e+K9q/sP\n3c8KYLEivUyQeX5iXFTfaQ3SfA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ocp-website@income-survey-448401.iam.gserviceaccount.com",
+  "client_id": "118046789073499256553",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ocp-website%40income-survey-448401.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

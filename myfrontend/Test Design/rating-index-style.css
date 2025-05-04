@@ -1,0 +1,158 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Rating Widget */
+.rating-widget {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  background: rgba(40, 40, 60, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 15px;
+  width: 280px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(90deg);
+}
+
+.prompt {
+  color: white;
+  text-align: center;
+  margin: 0 0 12px 0;
+  font-size: 1rem;
+}
+
+.emoji-rating {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.emoji-rating span {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  filter: grayscale(100%) brightness(0.8);
+}
+
+.emoji-rating span:hover {
+  transform: scale(1.2);
+  filter: grayscale(50%) brightness(1.1);
+}
+
+.emoji-rating span.active {
+  filter: none;
+  transform: scale(1.2);
+}
+
+/* QR Popup */
+.qr-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.qr-backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+.qr-box {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  width: 260px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.qr-popup.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.qr-popup.active .qr-box {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.close-qr {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.close-qr:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.qr-code {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.qr-code img {
+  width: 180px;
+  height: 180px;
+}
+
+/* Confetti (optional) */
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #f00;
+  opacity: 0;
+}
